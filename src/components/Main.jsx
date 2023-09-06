@@ -1,7 +1,7 @@
-const Header = () => {
+const Main = () => {
     return (
         <>
-            <header>
+            <main>
                 <h1></h1>
                 <nav>
                     <ul>
@@ -10,7 +10,7 @@ const Header = () => {
                         <li></li>
                     </ul>
                 </nav>
-            </header>
+            </main>
         
         
         
@@ -20,4 +20,4 @@ const Header = () => {
 }
 
 
-export default Header;
+export default Main;
