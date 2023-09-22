@@ -1,7 +1,10 @@
+import React from "react";
+
+
 const Header = () => {
     return (
         <>
-            <header>
+            <header>My App
                 <h1></h1>
                 <nav>
                     <ul>
