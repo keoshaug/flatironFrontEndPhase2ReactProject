@@ -11,6 +11,7 @@ Currently: app, header, main, footer
 Features to include:
 -filter: users will be able to filter quotes into categories based on the properties in each quote (Ex: author). This will eliminate all quotes not by the selected property. 
 
+3 different routes - React Router
 
 
 ## Project Requirements
