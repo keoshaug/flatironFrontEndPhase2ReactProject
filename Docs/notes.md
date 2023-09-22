@@ -1,3 +1,15 @@
+Project notes
+
+User Story: User will be able to interact with, to add and delete, cards with design-related quotes. Each card will contain data with the following properties: quote, work, author, category.
+
+Data
+The data will be retrieved from an array called ‘data.’ 
+
+Components
+Currently: app, header, main, footer
+	-hierarchy: header, main, footer as children of app
+Features to include:
+-filter: users will be able to filter quotes into categories based on the properties in each quote (Ex: author). This will eliminate all quotes not by the selected property. 
 
 
 
