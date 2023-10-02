@@ -9,7 +9,7 @@ const Footer = () => {
                 <nav>
                     <ul>
                         <li>Go to Top</li>
-                        <li>Social Media Link 1</li>
+                        <li><a href="https://keoshaug.github.io/" target='_blank'>My Portfolio</a></li>
                         <li>Social Media Link 2</li>
                     </ul>
                 </nav>
