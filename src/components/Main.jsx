@@ -7,6 +7,9 @@ const Main = () => {
         <>
             <main>
                 <h1></h1>
+                fetch()
+                .then(res => res.json())
+                .then(data =>{})
                 <nav>
                     <ul>
                         <li></li>
