@@ -3,6 +3,8 @@ import "./Card.css"
 
 
 function card ({quotes}) {
+    const {quote, work, author, category} = quotes
+    
     return (
         <div className="card">
             <p>{quotes.quote}</p>
