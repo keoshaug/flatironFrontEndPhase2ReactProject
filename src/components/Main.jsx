@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
 import App from "../App";
-import { Card } from "./Card";
+import Card  from "./Card";
 
 const Main = () => {
     return (
