@@ -1,17 +1,19 @@
 import React from "react";
+import "./Footer.css"
 
 
 const Footer = () => {
     return (
         <>
-            <footer>
-                <h1></h1>
+            <footer className="footer">
+                <h2>Links</h2>
+                <br/>
                 <nav>
-                    <ul>
-                        <li>Go to Top</li>
-                        <li><a href="https://keoshaug.github.io/" target='_blank'>My Portfolio</a></li>
-                        <li><a href="https://www.linkedin.com/in/kevinoshaughnessy/" target='_blank'>Linkedin</a></li>
-                    </ul>
+                        <button>Go to Top</button>
+                        <br/>
+                        <a href="https://keoshaug.github.io/" target='_blank'>My Portfolio</a>
+                        <br/>
+                        <a href="https://www.linkedin.com/in/kevinoshaughnessy/" target='_blank'>Linkedin</a>
                 </nav>
             </footer>
         
