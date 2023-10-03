@@ -1,12 +1,12 @@
 import React from "react";
 import "./Card.css"
-import data from "/home/kevinshau/flatironFrontEndPhase2ReactProject/db.json"
 
-function card ({cards}) {
+
+function card ({renderedCards}) {
     
     return (
         <div className="card-container">
-            <ul className="cards">{cards}</ul>
+            <ul className="cards">{renderedCards}</ul>
             <br/>
             <button className="card-btn">Remove</button>
         </div>

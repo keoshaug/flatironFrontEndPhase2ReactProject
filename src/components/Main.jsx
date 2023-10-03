@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ReactDOM } from "react";
 import App from "../App";
 import Card  from "./Card";
+import "./Main.css"
 
 const Main = () => {
     const [quotes, setQuotes] = useState([])
@@ -13,7 +14,7 @@ const Main = () => {
         .then(data => setQuotes(data))
     }, [])
 
-    const renderedCards = quotes.map((quote)=> <Card />)
+    const renderedCards = quotes.map((quote)=> <Card key={quote.id} />)
     console.log(renderedCards)
 
     return (
