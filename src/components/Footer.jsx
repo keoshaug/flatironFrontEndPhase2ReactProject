@@ -15,6 +15,7 @@ const Footer = () => {
                         <br/>
                         <br/>
                         <button className="ft-btn">Go to Top</button>
+                        {/* add onClick to Go to Top button  */}
                 </nav>
             </footer>
         
