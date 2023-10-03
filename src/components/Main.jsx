@@ -1,24 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ReactDOM } from "react";
 import App from "../App";
 import Card  from "./Card";
 
 const Main = () => {
+    const [cards, setCards] = useState([])
+
+    // useEffect(()=>{
+    //     fetch('')
+    //     .then(r=>r.json())
+    //     .then(data)
+    // }, [])
+
+
     return (
         <>
             <main>
-                <h1></h1>
                     <div className="card">
-                        <Card/>
+                        <Card cards={cards}/>
                     </div>
-                {/* fetch() */}
-                {/* .then(res => res.json())
-                .then(data =>{}) */}
-                <nav>
-                    <ul>
-
-                    </ul>
-                </nav>
             </main>
         
         
