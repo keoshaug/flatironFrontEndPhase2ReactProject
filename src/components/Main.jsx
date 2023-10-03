@@ -4,20 +4,23 @@ import App from "../App";
 import Card  from "./Card";
 
 const Main = () => {
-    const [cards, setCards] = useState([])
+    const [quotes, setQuotes] = useState([])
 
-    // useEffect(()=>{
-    //     fetch('')
-    //     .then(r=>r.json())
-    //     .then(data)
-    // }, [])
 
+    useEffect(()=>{
+        fetch('http://localhost:4000/data')
+        .then(r=>r.json())
+        .then(data => setQuotes(data))
+    }, [])
+
+    const renderedCards = quotes.map((quote)=> <Card />)
+    console.log(renderedCards)
 
     return (
         <>
             <main>
                     <div className="card">
-                        <Card cards={cards}/>
+                        {renderedCards}
                     </div>
             </main>
         
