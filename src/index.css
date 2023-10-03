@@ -7,4 +7,6 @@
 
 .card {
     text-align: center;
+    height: 200px;
+    width: 300px;
 }

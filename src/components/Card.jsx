@@ -7,6 +7,7 @@ const card = () => {
             <h3>{author}</h3>
             <h3>{work}</h3>
             <h3>{category}</h3> */}
+            <button>Remove</button>
         </div>
     )
 }
