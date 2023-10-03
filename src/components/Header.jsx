@@ -8,9 +8,7 @@ const Header = () => {
                 <h1>Design Quotes</h1>
                 <nav>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+          
                     </ul>
                 </nav>
             </header>

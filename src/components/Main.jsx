@@ -12,9 +12,7 @@ const Main = () => {
                 .then(data =>{}) */}
                 <nav>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+
                     </ul>
                 </nav>
             </main>
