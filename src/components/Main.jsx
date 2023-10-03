@@ -7,28 +7,25 @@ import "./Main.css"
 const Main = () => {
     const [quotes, setQuotes] = useState([])
 
-
     useEffect(()=>{
         fetch('http://localhost:4000/data')
-        .then(r=>r.json())
+        .then(r => r.json())
         .then(data => setQuotes(data))
     }, [])
 
-    const renderedCards = quotes.map((quote)=> <Card key={quote.id} />)
-    console.log(renderedCards)
-
+    const renderedCards = quotes.map((quote)=> 
+        <Card 
+            key={quote.id} 
+            quotes={quotes}
+        />)
     return (
         <>
             <main>
-                    <div className="card">
+                    <div className="card-container">
                         {renderedCards}
                     </div>
             </main>
-        
-        
-        
         </>
-
     )
 }
 
