@@ -6,6 +6,7 @@ import "./Main.css"
 
 const Main = () => {
     const [quotes, setQuotes] = useState([])
+    console.log(quotes)
 
     useEffect(()=>{
         fetch('http://localhost:4000/data')
@@ -18,6 +19,7 @@ const Main = () => {
             key={quote.id} 
             quotes={quotes}
         />)
+
     return (
         <>
             <main>
