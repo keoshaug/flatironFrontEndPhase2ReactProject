@@ -1,9 +1,17 @@
 import React from "react";
 import "./Card.css"
+import data from "/home/kevinshau/flatironFrontEndPhase2ReactProject/db.json"
 
 const card = () => {
     return (
         <div className="card-container">
+            {/* {
+                data.map(post => (
+                    <div>
+                    <h2>{post.quote}</h2>
+                    </div>
+                ))
+            } */}
             <br />
             <h2 className="card-quote">quote: Lorem Ipsum</h2>
             <h3 className="card-author">author</h3>
