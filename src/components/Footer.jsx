@@ -9,7 +9,7 @@ const Footer = () => {
                 <h2>Links</h2>
                 <br/>
                 <nav>
-                        <button>Go to Top</button>
+                        <button className="ft-btn">Go to Top</button>
                         <br/>
                         <a href="https://keoshaug.github.io/" target='_blank'>My Portfolio</a>
                         <br/>
