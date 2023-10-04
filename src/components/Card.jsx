@@ -1,18 +1,16 @@
 import React from "react";
 import "./Card.css"
 
-function Card({quotes}) {
+function Card({quotes, onDeleteQuote}) {
 
     const {id, quote, work, author, category} = quotes
-
-
 
 
     function handleDelete () {
         fetch(`http://localhost:4000/data${id}`, {
           method: "DELETE"
         })
-        .then(onDeleteClick(id))
+        .then(onDeleteQuote(id))
       }
     
 

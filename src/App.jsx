@@ -19,6 +19,7 @@ function App() {
     <main className="App">
       <Header />
       <Main quotes={quotes}/>
+      <NewCardForm />
       <Footer />
     </main>
   )
