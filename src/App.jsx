@@ -18,7 +18,6 @@ function App() {
   function handleAddQuote (newQuote) {
     console.log(setQuotes([...quotes, newQuote]))
   }
-  
 
   return (
     <main className="App">

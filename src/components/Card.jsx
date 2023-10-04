@@ -18,8 +18,11 @@ function Card({data}) {
         
         <div className="card">
             <p>{quote}</p>
+            <br/>
             <p>{work}</p>
+            <br/>
             <p>{author}</p>
+            <br/>
             <p>{category}</p>
             <br/>
             <button className="card-btn" onClick={handleDelete}>Remove</button>

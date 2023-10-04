@@ -1,6 +1,11 @@
-.container {
+.ccard-ontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.outer-container {
+    size: 10px;
+    padding: 20px;
 }

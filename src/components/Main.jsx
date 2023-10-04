@@ -7,11 +7,9 @@ function Main ({quotes}) {
 
     const renderedCards = quotes.map((quote) => <Card key={quote.id} data={quote}/>)
 
-    
-
     return (
-            <div>
-            <div className="card-container">{renderedCards}</div>
+            <div className="outer-container">
+                <div className="card-container">{renderedCards}</div>
             </div>
     );
     }
