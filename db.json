@@ -1,138 +1,137 @@
 {
-    "data" : [
-        {
-           "id": "1",
-           "quote": "Transient applications must be simple, clear, and to the point.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "UI Design"
-        },
-        {
-          "id": "2",
-           "quote": "No matter how cool your interface is, less of it would be better.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "UI Design"
-        },
-        {
-           "id": "3",
-           "quote": "Don't make the user feel stupid.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "human element"
-        },
-        {
-           "id": "4",
-           "quote": "User interfaces should be based on user mental models rather than implementation models",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "UI Design"
-        },
-        {
-           "id": "5",
-           "quote": "Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating.",
-           "work": "The Design of Everyday Things",
-           "author": "Donald Norman",
-           "category": "human element"
-        },
-        {
-           "id": "6",
-           "quote": "There is only one user experience. Form and behavior must be designed in concert.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "UI Design"
-        },
-        {
-           "id": "7",
-           "quote": "Sovereign interfaces should feature a conservative visual style.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "Ui Design"
-        },
-        {
-           "id": "8",
-           "quote": "Rule of thumb: if you think something is clever and sophisticated beware-it is probably self-indulgence.",
-           "work": "The Design of Everyday Things",
-           "author": "Donald Norman",
-           "category": "human element"
-        },
-        {
-           "id": "9",
-           "quote": "Good design has the feeling of a unified whole, in which all parts are in balance and harmony.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "design basics"
-        },
-        {
-           "id": "10",
-           "quote": "Two of the most important characteristics of good design are discoverability and understanding.",
-           "work": "The Design of Everyday Things",
-           "author": "Donald Norman",
-           "category": "design basics"
-        },
-        {
-           "id": "11",
-           "quote": "The computer does the work, and the person does the thinking.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "human element"
-        },
-        {
-           "id": "12",
-           "quote": "Juicy Salif is not only about squeezing lemons, it's about what    we see in it, the way this micro-sculpture lets our imagination run wild. When someone asks, ‘What is this?' a conversation begins, and this is the scenario that drives me while designing such a bizarre object.",
-           "work": "https://www.starck.com/alessi-100-values-juicy-salif-n-3-p4490",
-           "author": "Philippe Starck",
-           "category": "design basics"
-        },
-        {
-           "id": "13",
-           "quote": "Software should behave like a considerate human being.",
-           "work": "About Face: The Essentials of Interaction Design",
-           "author": "Cooper, Reimann, Cronin, Noessel",
-           "category": "human element"
-        },
-        {
-           "id": "14",
-           "quote": "In the university, professors make up artificial problems. In the real world, the problems do not come in nice, neat packages. They have to be discovered.",
-           "work": "The Design of Everyday Things",
-           "author": "Donald Norman",
-           "category": "design basics"
-        },
-        {
-           "id": "15",
-           "quote": "Simplification is as much in the mind as it is in the device.",
-           "work": "Living With Complexity",
-           "author": "Donald Norman",
-           "category": "design basics"
-        },
-        {
-           "id": "16",
-           "quote": "Subversive, ethical, ecological, political, humorous… this is how I see my duty as a designer.",
-           "work": "starck.com/about",
-           "author": "Philippe Starck",
-           "category": "design basics"
-        },
-        {
-           "id": "17",
-           "quote": "Whether it's a toothbrush, an airplane or a chair, it's always the same philosophy: to think about what the user will gain.",
-           "work": "starck.com/about",
-           "author": "Philippe Starck",
-           "category": "UI design"
-        },
-        {
-           "id": "18",
-           "quote": "If the system lets you make the error, it is badly designed.",
-           "work": "The Design of Everyday Things",
-           "author": "Donald Norman",
-           "category": "design basics"
-        },
-        {
-           "id": "19",
-           "quote": "If there is no vision, humane, social or loving, a project doesn't have the legitimacy to exist.",
-           "work": "starck.com/about",
-           "author": "Philippe Starck",
-           "category": "human element"
-        }
-        ]
-        
-  }
+  "data": [
+    {
+      "id": "1",
+      "quote": "Transient applications must be simple, clear, and to the point.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "UI Design"
+    },
+    {
+      "id": "2",
+      "quote": "No matter how cool your interface is, less of it would be better.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "UI Design"
+    },
+    {
+      "id": "3",
+      "quote": "Don't make the user feel stupid.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "human element"
+    },
+    {
+      "id": "4",
+      "quote": "User interfaces should be based on user mental models rather than implementation models",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "UI Design"
+    },
+    {
+      "id": "5",
+      "quote": "Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating.",
+      "work": "The Design of Everyday Things",
+      "author": "Donald Norman",
+      "category": "human element"
+    },
+    {
+      "id": "6",
+      "quote": "There is only one user experience. Form and behavior must be designed in concert.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "UI Design"
+    },
+    {
+      "id": "7",
+      "quote": "Sovereign interfaces should feature a conservative visual style.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "Ui Design"
+    },
+    {
+      "id": "8",
+      "quote": "Rule of thumb: if you think something is clever and sophisticated beware-it is probably self-indulgence.",
+      "work": "The Design of Everyday Things",
+      "author": "Donald Norman",
+      "category": "human element"
+    },
+    {
+      "id": "9",
+      "quote": "Good design has the feeling of a unified whole, in which all parts are in balance and harmony.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "design basics"
+    },
+    {
+      "id": "10",
+      "quote": "Two of the most important characteristics of good design are discoverability and understanding.",
+      "work": "The Design of Everyday Things",
+      "author": "Donald Norman",
+      "category": "design basics"
+    },
+    {
+      "id": "11",
+      "quote": "The computer does the work, and the person does the thinking.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "human element"
+    },
+    {
+      "id": "12",
+      "quote": "Juicy Salif is not only about squeezing lemons, it's about what    we see in it, the way this micro-sculpture lets our imagination run wild. When someone asks, ‘What is this?' a conversation begins, and this is the scenario that drives me while designing such a bizarre object.",
+      "work": "https://www.starck.com/alessi-100-values-juicy-salif-n-3-p4490",
+      "author": "Philippe Starck",
+      "category": "design basics"
+    },
+    {
+      "id": "13",
+      "quote": "Software should behave like a considerate human being.",
+      "work": "About Face: The Essentials of Interaction Design",
+      "author": "Cooper, Reimann, Cronin, Noessel",
+      "category": "human element"
+    },
+    {
+      "id": "14",
+      "quote": "In the university, professors make up artificial problems. In the real world, the problems do not come in nice, neat packages. They have to be discovered.",
+      "work": "The Design of Everyday Things",
+      "author": "Donald Norman",
+      "category": "design basics"
+    },
+    {
+      "id": "15",
+      "quote": "Simplification is as much in the mind as it is in the device.",
+      "work": "Living With Complexity",
+      "author": "Donald Norman",
+      "category": "design basics"
+    },
+    {
+      "id": "16",
+      "quote": "Subversive, ethical, ecological, political, humorous… this is how I see my duty as a designer.",
+      "work": "starck.com/about",
+      "author": "Philippe Starck",
+      "category": "design basics"
+    },
+    {
+      "id": "17",
+      "quote": "Whether it's a toothbrush, an airplane or a chair, it's always the same philosophy: to think about what the user will gain.",
+      "work": "starck.com/about",
+      "author": "Philippe Starck",
+      "category": "UI design"
+    },
+    {
+      "id": "18",
+      "quote": "If the system lets you make the error, it is badly designed.",
+      "work": "The Design of Everyday Things",
+      "author": "Donald Norman",
+      "category": "design basics"
+    },
+    {
+      "id": "19",
+      "quote": "If there is no vision, humane, social or loving, a project doesn't have the legitimacy to exist.",
+      "work": "starck.com/about",
+      "author": "Philippe Starck",
+      "category": "human element"
+    } 
+  ]
+}

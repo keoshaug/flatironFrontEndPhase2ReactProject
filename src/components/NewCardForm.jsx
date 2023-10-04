@@ -27,7 +27,7 @@ function NewCardForm () {
 
         fetch('http://localhost:4000/data', configOBj)
         .then(r => r.json())
-        .then(setQuotes)
+        .then(console.log)
     }
 
     return (
