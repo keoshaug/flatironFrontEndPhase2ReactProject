@@ -3,7 +3,7 @@ import "./Card.css"
 
 function Card({quotes}) {
 
-    const {quote, work, author, category} = quotes
+    const {id, quote, work, author, category} = quotes
     
 
     return (
