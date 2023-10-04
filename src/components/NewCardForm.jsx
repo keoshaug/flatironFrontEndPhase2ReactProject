@@ -9,19 +9,23 @@ function NewCardForm () {
         category: ""
     })
 
+    function handleChange(e) {
+            setFormData({...formData, [e.target.name]: e.target.value}) 
+    }
+
+    
     function handleSubmit(e) {
         e.preventDefault()
     }
-
 
     return (
             <div className="new-card-form">
                 <h3>Add New Quote</h3>
                 <form name="new-card-form" id="cardForm">
-                    <input type="text" quote="quote" value={formData.quote} placeholder="Quote" onChange={handleChange}/>
-                    <input type="text" author="author"  value={formData.author} placeholder="Author" onChange={handleChange}/>
-                    <input type="text" work="work"  value={formData.work} placeholder="Work" onChange={handleChange} />
-                    <input type="text" work="category"  value={formData.category} placeholder="Category" onChange={handleChange} />
+                    <input type="text" name="quote" value={formData.quote} placeholder="Quote" onChange={handleChange}/>
+                    <input type="text" name="author"  value={formData.author} placeholder="Author" onChange={handleChange}/>
+                    <input type="text" name="work"  value={formData.work} placeholder="Work" onChange={handleChange} />
+                    <input type="text" name="category"  value={formData.category} placeholder="Category" onChange={handleChange} />
                     <button type="submit" onClick={handleSubmit}>Add Quote</button>
                 </form>
             </div>
