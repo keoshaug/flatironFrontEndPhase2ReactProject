@@ -1,7 +1,8 @@
 import React from "react";
 import "./Card.css"
 
-function Card ({quotes}) {
+function Card({quotes}) {
+
     const {quote, work, author, category} = quotes
     
 

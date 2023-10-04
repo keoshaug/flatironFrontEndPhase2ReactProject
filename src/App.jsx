@@ -11,16 +11,16 @@ function App() {
   useEffect(()=>{
       fetch('http://localhost:4000/data')
       .then(r => r.json())
-      .then(data => console.log(data))
+      .then(setQuotes)
   }, [])
   
 
   return (
-    <div className="App">
+    <main className="App">
       <Header />
-      <Main quotes={quotes} />
+      <Main quotes={quotes}/>
       <Footer />
-    </div>
+    </main>
   )
 }
 
