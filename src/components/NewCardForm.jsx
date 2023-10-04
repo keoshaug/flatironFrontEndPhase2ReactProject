@@ -16,6 +16,18 @@ function NewCardForm () {
     
     function handleSubmit(e) {
         e.preventDefault()
+
+        const configOBj = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        }
+
+        fetch('http://localhost:4000/data', configOBj)
+        .then(r => r.json())
+        .then(setQuotes)
     }
 
     return (
