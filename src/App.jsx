@@ -2,6 +2,7 @@ import { useState, useEffect} from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import NewCardForm from "./components/NewCardForm.jsx";
 import './App.css';
 
 
@@ -18,8 +19,8 @@ function App() {
   return (
     <main className="App">
       <Header />
-      <Main quotes={quotes}/>
       <NewCardForm />
+      <Main quotes={quotes}/>
       <Footer />
     </main>
   )
