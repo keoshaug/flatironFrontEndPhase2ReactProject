@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import Card  from "./Card";
 
-function NewCardForm () {
+function NewCardForm ({onAddQuote}) {
     const [formData, setFormData] = useState({
         quote: "",
         author: "",
@@ -27,7 +27,7 @@ function NewCardForm () {
 
         fetch('http://localhost:4000/data', configOBj)
         .then(r => r.json())
-        .then(console.log)
+        .then(quote =>onAddQuote(quote))
     }
 
     return (

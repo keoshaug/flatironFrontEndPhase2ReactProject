@@ -1,9 +1,9 @@
 import React from "react";
 import "./Card.css"
 
-function Card({quotes, onDeleteQuote}) {
+function Card({data}) {
 
-    const {id, quote, work, author, category} = quotes
+    const {id, quote, work, author, category} = data
 
 
     function handleDelete () {
@@ -15,6 +15,7 @@ function Card({quotes, onDeleteQuote}) {
     
 
     return (
+        
         <div className="card">
             <p>{quote}</p>
             <p>{work}</p>

@@ -14,12 +14,18 @@ function App() {
       .then(r => r.json())
       .then(setQuotes)
   }, [])
+
+  function handleAddQuote (newQuote) {
+    console.log(setQuotes([...quotes, newQuote]))
+  }
   
 
   return (
     <main className="App">
       <Header />
-      <NewCardForm />
+      <NewCardForm
+       onAddQuote={handleAddQuote}
+      />
       <Main quotes={quotes}/>
       <Footer />
     </main>
