@@ -15,7 +15,7 @@ const Main = () => {
 
     const renderedCards = quotes.map((quote)=> 
         <Card key={quote.id} quotes={quotes} />)
-        
+
     return (
         <>
             <main>

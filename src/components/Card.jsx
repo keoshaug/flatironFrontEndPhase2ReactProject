@@ -1,9 +1,9 @@
 import React from "react";
 import "./Card.css"
-import Main from "./Main";
 
-function card ({quotes}) {
+function Card ({quotes}) {
     const {quote, work, author, category} = quotes
+    
 
     return (
         <div className="card">
@@ -17,4 +17,4 @@ function card ({quotes}) {
     )
 }
 
-export default card
+export default Card
