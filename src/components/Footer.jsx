@@ -3,6 +3,10 @@ import "./Footer.css"
 
 
 const Footer = () => {
+    function handleGoToTop () {
+        window.scrollTo(0, 0)
+    }
+
     return (
         <>
             <footer className="footer">
@@ -14,8 +18,7 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/kevinoshaughnessy/" target='_blank'>Linkedin</a>
                         <br/>
                         <br/>
-                        <button className="ft-btn">Go to Top</button>
-                        {/* add onClick to Go to Top button  */}
+                        <button className="ft-btn" onClick={handleGoToTop}>Go to Top</button>
                 </nav>
             </footer>
         

@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   function handleAddQuote (newQuote) {
-    console.log(setQuotes([...quotes, newQuote]))
+    setQuotes([...quotes, newQuote])
   }
 
   return (
