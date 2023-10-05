@@ -6,9 +6,15 @@ const Navbar = () => {
     <>
     <nav className='navBar'>
         <ul className='nav-ul'>
-            <li className='nav-li'><a href="" className='site-title'>Home</a></li>
-            <li className='nav-li'><a href="" className='site-title'>About</a></li>
-            <li className='nav-li'><a href="" className='site-title'>Links</a></li>
+            <div className='nav-li'>
+            <li className='active'><a href='./Header.jsx'>Home</a></li>
+            </div>
+            <div className='nav-li'>
+            <li className='active'><a href='./Main.jsx'>About</a></li>
+            </div>
+            <div className='nav-li'>
+            <li className='active'><a href='./Footer.jsx'>Links</a></li>
+            </div>
         </ul>
     </nav>
     </>
