@@ -1,14 +1,18 @@
 
 .navBar {
-    background-size: cover;
     background-color: gray;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 260px;
+    padding-right: 260px;
 }
 
-.nav-ul {
+.nav-ul, .nav-li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }

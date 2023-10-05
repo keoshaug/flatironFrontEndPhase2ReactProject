@@ -6,9 +6,9 @@ const Navbar = () => {
     <>
     <nav className='navBar'>
         <ul className='nav-ul'>
-         <li><a href="" className='site-title'>Business Site</a></li>
-            <li><a href="" className='site-title'>Business Site</a></li>
-            <li><a href="" className='site-title'>Business Site</a></li>
+            <li className='nav-li'><a href="" className='site-title'>Business Site</a></li>
+            <li className='nav-li'><a href="" className='site-title'>Business Site</a></li>
+            <li className='nav-li'><a href="" className='site-title'>Business Site</a></li>
         </ul>
     </nav>
     </>
