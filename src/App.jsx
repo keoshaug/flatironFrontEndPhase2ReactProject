@@ -11,13 +11,13 @@ function App() {
 
   switch(window.location.pathname) {
 
-    case "./Header.jsx":
+    case "./":
       Component = Home
     break;
-    case "./Main.jsx": 
-      Component = Quotes
+    case "./About": 
+      Component = About
     break;
-    case "./Footer.jsx":
+    case "./Footer":
       Component = Links
 
   }
