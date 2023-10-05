@@ -4,9 +4,25 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import NewCardForm from "./components/NewCardForm.jsx";
 import './App.css';
+import { Component } from 'react';
 
 
 function App() {
+
+  switch(window.location.pathname) {
+
+    case "./Header.jsx":
+      Component = Home
+    break;
+    case "./Main.jsx": 
+      Component = Quotes
+    break;
+    case "./Footer.jsx":
+      Component = Links
+
+  }
+
+
   const [quotes, setQuotes] = useState([])
 
   useEffect(()=>{
