@@ -25,7 +25,7 @@ function App() {
       <NewCardForm
        onAddQuote={handleAddQuote}
       />
-      <Main quotes={quotes}/>
+      <Main quotes={quotes} setQuotes={setQuotes}/>
       <Footer />
     </main>
   )

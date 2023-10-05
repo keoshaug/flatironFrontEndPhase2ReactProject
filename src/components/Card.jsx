@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css"
 
-function Card({data}) {
+function Card({data, onDeleteQuote}) {
 
     const {id, quote, work, author, category} = data
 
@@ -25,7 +25,7 @@ function Card({data}) {
             <br/>
             <p>{category}</p>
             <br/>
-            <button className="card-btn" onClick={handleDelete}>Remove</button>
+            <button className="card-btn" onClick={handleDelete}>Delete</button>
         </div>
     )
 }

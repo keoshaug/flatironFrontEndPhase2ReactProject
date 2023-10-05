@@ -132,6 +132,13 @@
       "work": "starck.com/about",
       "author": "Philippe Starck",
       "category": "human element"
+    },
+    {
+      "quote": "Sapere Aude",
+      "author": "Immanuel Kant",
+      "work": "Answering the Question: What is Enlightenment",
+      "category": "Philosophy",
+      "id": "Rcz7u6O"
     }
   ]
 }
