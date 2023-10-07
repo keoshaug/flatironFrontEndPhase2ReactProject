@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "./",
     "server": "json-server -w db.json -p 4000",
     "dev": "vite",
     "build": "vite build",
