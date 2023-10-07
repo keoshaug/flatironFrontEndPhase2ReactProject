@@ -9,14 +9,14 @@ import Links from './components/Links';
 import './App.css';
 import { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './index.jsx';
+import root from '.';
 
 
 function App() {
 
   switch(window.location.pathname) {
 
-    case "./":
+    case "./Main":
       Component = Home
     break;
     case "./About": 
@@ -43,11 +43,13 @@ function App() {
   return (
     <main className="App">
       <Navbar/>
+
         <Routes>
           <Route path='./Header' element={<Header/>}></Route>
           <Route path='./About' element={<About/>}></Route>
           <Route path='./Links' element={<Links/>}></Route>
         </Routes>
+
       <Header />
       <NewCardForm
        onAddQuote={handleAddQuote}

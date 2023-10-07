@@ -14,4 +14,5 @@ root.render(
     </React.StrictMode>
 );
 
-// reportWebVitals();
+// reportWebVitals()
+export default root; 

@@ -3,9 +3,7 @@ import "./Navbar.css";
 
 
 function CustomLink({href, children,...props}) {
-
-
-    const path = window.location.pathname
+  const path = window.location.pathname
 
     return(
 
@@ -17,13 +15,13 @@ function CustomLink({href, children,...props}) {
 
 const Navbar = () => {
 
-
+  const path = window.location.pathname
   return (
     <>
     <nav className='navBar'>
+        <a href='./Header'>Home</a>
         <ul className='nav-ul'>
             <div className='nav-li'>
-            <CustomLink href='./Header'>Home</CustomLink>
             </div>
             <div className='nav-li'>
             <CustomLink  href='./About'>About</CustomLink>
