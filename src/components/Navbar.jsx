@@ -1,15 +1,16 @@
 import React from 'react';
 import "./Navbar.css";
+import { Link } from 'react-router-dom';
 
 
-function CustomLink({href, children,...props}) {
+function CustomLink({to, children,...props}){
   const path = window.location.pathname
 
     return(
 
-        <li className={path === href ? "active" : ""}>
-            <a hreft={href} {...props}>{children}</a>
-            </li>
+        <li className={path === to ? "active" : ""}>
+        <Link to={to} {...props}>{children}</Link>
+        </li>
     )
 }
 
@@ -19,15 +20,15 @@ const Navbar = () => {
   return (
     <>
     <nav className='navBar'>
-        <a href='./Header'>Home</a>
+        <Link to='./Header'>Home</Link>
         <ul className='nav-ul'>
             <div className='nav-li'>
             </div>
             <div className='nav-li'>
-            <CustomLink  href='./About'>About</CustomLink>
+            <CustomLink to='./About'>About</CustomLink>
             </div>
             <div className='nav-li'>
-            <CustomLink href='./Links'>Links</CustomLink>
+            <CustomLink to='./Links'>Links</CustomLink>
             </div>
         </ul>
     </nav>
