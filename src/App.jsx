@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import NewCardForm from "./components/NewCardForm.jsx";
 import './App.css';
 import { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {

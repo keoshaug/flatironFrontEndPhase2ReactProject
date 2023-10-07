@@ -1,40 +1,17 @@
-## Design Quotes - Inspiration Quotes from Great Designers
+# Design Quotes - Inspiration Quotes from Great Designers
+
+## Introduction
+
 This app contains quotes by noted designer, each on its own card included with details such as author and work that the quote is taken from.
 
+## Description
 
+This React app was created to display text retrieved from a db.json file through fetches in several components. The App compnent is the parent of the Header, NewCardForm, Main, and Footer components. Main is the parent of the Card component. The Aapp component also includes a Navbar at the top with links to 3 areas - the App (home) page, About page, and Links page.
 
-______________________________________________________________________________________________________________________________
+The db.sjon file contains an array with 19 quotes - each quote has 5 properties. These are extracted using a fetch, then separated onto 19 card components which are rendered on the page. These 19 are the default quotes which appear. The user is able to fill in the info in a form at the top of the page to add additional quotes to the page. The user is also able to delete quotes, including the default quotes, by clicking the delete button on the card.
 
-Requirements ------This portion of README To be Deleted Upon Completion-------
-[X] a single page application (only one index.html file) using create-react-app.
-[X] Your app should use at least 3 components in a way that keeps your code well organized.
-[ ] There should be at least 2 client-side routes using React RouterLinks to an external site.. Be sure to include a nav bar or other UI element that allows users to navigate between routes.
+The bottom of the page has a couple links to professional social profiles as well as a 'Go to Top' button. Rather than scroll all the way to the top, the user can click this to automatically go to the top of the page.
 
-[X] Use a json-server to create a RESTful API for your backend and make both a GET and a POST request to the json server. Use a form to make your post request, specifically a controlled form/component. Additionally, you may choose to incorporate data from an external API but it is not required.
+## License
+GNU General Public License v3.0
 
-[X]You should keep your json-server data simple: avoid nested data and associations. You'll learn how to work with more complex data in the next two phases. Focus on the frontend for this project.
-[ ] Upon return of json from your POST request, a state update by a setState function is required!
- // in App:
- function addMovie(newMovie){
-  setMovies([...movies, newMovie]) // Updating movies state.
- }
-
- //in Form
- const configObj = {
-  method: 'POST',
-  headers: {'Content-Type': 'application/json'},
-  body: JSON.stringify({title: "Titanic"})
- }
-
- fetch('http://localhost:3000/movies', configObj)
-  .then(res => res.json())
-  .then(data => addMovie(data)) //THIS STATE UPDATE IS REQUIRED!!!
-  // clear form
-
-Remember: responsibility for re-rendering the page to display the updated list of movies should belong to the addMovie function; depending on a subsequent action to load the new data is not best practice.
-
-Stretch Goals
-[X]Use more components and client-side routes.
-[X]Add some styling: you're encouraged to write your CSS from scratch, either by using styled componentsLinks to an external site. or writing CSS files and using id/className to style your elements. You can also incorporate a UI framework (like React BootstrapLinks to an external site., Semantic UILinks to an external site., or Material UILinks to an external site.) if you prefer.
-[ ]Incorporate data from an external API. Check out this list of APIsLinks to an external site. if you need some inspiration!
-[ ]Anything else you'd like! These are only the basic requirements — you're free to explore and add on as much stuff as you'd like. 

@@ -20,6 +20,9 @@ const Footer = () => {
                         <br/>
                         <button className="ft-btn" onClick={handleGoToTop}>Go to Top</button>
                 </nav>
+                <br/>
+                <br/>
+                <p>© 2023 Kevin O'Shaughnessy</p>
             </footer>
         
         
