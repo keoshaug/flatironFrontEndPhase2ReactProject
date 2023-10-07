@@ -14,20 +14,6 @@ import root from '.';
 
 function App() {
 
-  switch(window.location.pathname) {
-
-    case "./Main":
-      Component = Home
-    break;
-    case "./About": 
-      Component = About
-    break;
-    case "./Links":
-      Component = Links
-
-  }
-
-
   const [quotes, setQuotes] = useState([])
 
   useEffect(()=>{
