@@ -1,4 +1,4 @@
-import { useState, useEffect} from 'react';
+import React, { useState, useEffect} from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
@@ -9,6 +9,7 @@ import Links from './components/Links';
 import './App.css';
 import { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import './index.jsx';
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
     <main className="App">
       <Navbar/>
         <Routes>
-          <Route path='./Header' element={<Header/>}/>
+          <Route path='./Header' element={<Header/>}></Route>
           <Route path='./About' element={<About/>}></Route>
           <Route path='./Links' element={<Links/>}></Route>
         </Routes>
