@@ -7,9 +7,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Links from './components/Links';
 import './App.css';
-import { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import root from '.';
 
 
 function App() {
