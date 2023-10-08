@@ -12,6 +12,9 @@ The db.sjon file contains an array with 19 quotes - each quote has 5 properties.
 
 The bottom of the page has a couple links to professional social profiles as well as a 'Go to Top' button. Rather than scroll all the way to the top, the user can click this to automatically go to the top of the page.
 
+## Video
+A short video walkthrough available at YouTube: https://youtube.com/watch?v=LKWeEM2VXtE&t
+
 ## License
 GNU General Public License v3.0
 

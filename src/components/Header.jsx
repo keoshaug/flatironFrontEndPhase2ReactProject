@@ -8,7 +8,7 @@ const Header = () => {
             <header>
                 <h1>Design Quotes</h1>
                 <br/>
-                <h2>Inspiration Quotes from Great Designers</h2>
+                <h2>Inspirational Quotes from Great Designers</h2>
                 <br/>
             </header>
         
