@@ -1,4 +1,4 @@
-# Design Quotes - Inspiration Quotes from Great Designers
+# Design Quotes - Inspirational Quotes from Great Designers
 
 ## Introduction
 
