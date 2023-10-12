@@ -29,7 +29,7 @@ function App() {
       <Navbar/>
 
         <Routes>
-          <Route path='/Header' element={<Header/>}></Route>
+          <Route path='/' element={<Header/>}></Route>
           <Route path='/About' element={<About/>}></Route>
           <Route path='/Links' element={<Links/>}></Route>
         </Routes>
